@@ -1,6 +1,6 @@
 def evaluar(caracter):
     # TODO: Coloca aquí el código del ejercicio 4: Letra o número
-    letra=int(caracter)
+    letra=ord(caracter)
     if(letra>=48 and letra<=57):
         salida= "Es número"
     elif (letra>=65 and letra<=90):
